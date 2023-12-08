@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Silkscreen&display=swap');
+/* https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+body{
+  background: gray;
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+h1, h2{
+  font-family: 'Silkscreen', sans-serif;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 24px;
+}
+a {
+  color: #D21312;
+  text-decoration: none;
+}
+a:hover {
+  color: #F15A59;
+  text-decoration: underline;
+}
+.banner{
+  background-image: url("https://images.unsplash.com/photo-1573495627361-d9b87960b12d?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  color: #FC440F;
+  padding: 120px 0;
+}
+.container{
+  width: 800px;
+  margin: 16px auto;
+  text-align: center;
+}
+.card-grey{
+  background-color: lightgrey;
+  padding: 32px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+  border: 1px solid lightgrey;
+  margin: 16px auto;
+}
+.link-medium{
+  background-color: gray;
+  color: #FC440F;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: italic;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 8px auto;
+}
+.link-medium:hover {
+  background-color: #FC440F;
+  color: #60695C;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
